@@ -1,5 +1,5 @@
 header{
-	background: #6666FF; /* cor fundo */ 
+	background: #5e5c5c; /* cor fundo */ 
 	padding: 20px 0;	
 }
 
@@ -53,4 +53,13 @@ nav a:hover{
 .produtos li:hover{
 	border-color:#FFFF99;
 	font-size: 25px;
+}
+footer{
+   background:#f1f083;
+}
+
+
+.copyright{
+    color: rgb(0, 0, 0);
+
 }
