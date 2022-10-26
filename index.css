@@ -1,0 +1,57 @@
+header{
+	background: #6666FF; /* cor fundo */ 
+	padding: 20px 0;	
+}
+
+.caixa{
+	position: relative; /* texto no meio*/
+	width: 940px; /* largura caixa */
+	margin: 0 auto; /* carcula margem */ 
+}
+nav {
+	position: absolute;/* ocupa todo espaço */
+	top: 110px; /* ficar no topo*/
+	right: 0; /* alinhado a direita */
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+		
+}
+
+nav a{
+  text-transform: uppercase;
+  color: #FFFF99;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;  
+	
+}
+
+nav a:hover{
+    color: red;
+    text-decoration: underline;
+}	
+.produtos{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 55px 0;		
+}
+
+.produtos li{
+    display: inline-block;
+    border: 2px solid #000000;
+    text-align: center;
+    width: 25%;
+    margin: 0 1.5%;
+    vertical-align: top;
+    padding: 30px 20px;
+    box-sizing: border-boox;	
+}
+
+.produtos li:hover{
+	border-color:#FFFF99;
+    border-radius: 50px;
+	font-size: 40px;
+}
